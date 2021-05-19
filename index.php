@@ -22,7 +22,7 @@
         <h1 class="text-center display-6 mb-5">login</h1>
        
         <!-- formulario  -->
-        <form  method="post" action="validar.php">
+        <form  method="post">
             
             <!-- correo  -->
             <div class="input-email">
@@ -61,6 +61,8 @@
 <script src="main.js"></script>
 
     
-
+<?php
+          include("validar.php");
+      ?>
 </body>
 </html>
